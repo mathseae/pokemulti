@@ -1,0 +1,13 @@
+# ROMs, saves and save states: never commit game data
+*.nds
+*.dsv
+*.sav
+*.ds[0-9]
+*.dst
+# Runtime link files
+link/*.txt
+link/*.tmp
+# Addresses found on the owner's machine
+lua/addresses_local.lua
+__pycache__/
+local/
